@@ -4,9 +4,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <section>
-      <h2>Home</h2>
-      <div style="display:flex; gap: .75rem;">
+    <section class="flex justify-center gap-4 mt-20 text-2xl text-center">      
+      <div>
         Hello World :)
       </div>
     </section>
