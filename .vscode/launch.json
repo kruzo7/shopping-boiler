@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "compounds": [
+        {
+        "name": "MAIN RUN: ShoppingBoiler Backend & Frontend",
+        "configurations": [
+            "C#: Back-End ShoppingBoilerAPI",
+            "Node.js: Front-End Angular ShoppingBoiler"
+        ]
+        }
+    ],
+    "configurations": [       
+        {
+            "name": "Node.js: Front-End Angular ShoppingBoiler",
+            "type": "chrome",
+            "request": "launch",
+            "webRoot": "${workspaceFolder}/src/front-end/shopping-boiler",
+            "url": "http://localhost:4200",
+            "sourceMaps": true,
+            "preLaunchTask": "npm: start - src/front-end/shopping-boiler"
+        },
+        {
+            "name": "C#: Back-End ShoppingBoilerAPI",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/back-end/ShoppingBoilerAPI/ShoppingBoilerAPI.csproj"
+        },
+
+
+    ]
+}
