@@ -29,7 +29,7 @@ import { ProductService, Product } from './product.service';
                     <td>{{p.name}}</td>
                     <td>{{p.price.value}} {{p.price.currency}}</td>
                     <td>
-                    <a [routerLink]="['/products', p.id]" class="bg-green-500 text-white px-2 py-1 rounded">Edit This</a>
+                    <a [routerLink]="['/products', p.id]" class="bg-green-500 text-white px-2 py-1 rounded">View This</a>
                     </td>
                 </tr>
             }
