@@ -5,7 +5,7 @@ using ShoppingBoilerData.Interfaces;
 using ShoppingBoilerData.Models;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/v1/[controller]")]
 public class ProductsController : ControllerBase
 {
     private readonly IProductRepository _repo;
